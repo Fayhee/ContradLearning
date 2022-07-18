@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13fef308ab711a6439bb086b5265f83e, type: 3}
+  m_Name: MoralisServerSettings
+  m_EditorClassIdentifier: 
+  ServerUri: https://q86ueru0xers.usemoralis.com:2053/server
+  ApplicationId: 3tvquT2WXFA7VzU3mEAi5Nce43RMNCzEAoeTFEBJ
+  ApplicationName: Contrad
+  ApplicationDescription: This is a future of work learning platform
+  ApplicationVersion: 1.0.0
+  ApplicationIconUri: https://skylar3.s3.eu-west-2.amazonaws.com/Earth-school/Skylar+icon.png
+  ApplicationUrl: https://Contrad.com
+  DisableAutoOpenWizard: 0

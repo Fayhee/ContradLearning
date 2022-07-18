@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: CyberCrimes
+  m_EditorClassIdentifier: 
+  categoryName: Cyber Crimes
+  questions:
+  - questionInfo: What type os security Breach is this?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 1e9f5adb2a7106e458a675239dae33c8, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Ransomeware
+    - Adware
+    - Defacement
+    - Spamware
+    correctAns: Ransomeware
+  - questionInfo: What type os security Breach is this?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 64e688c1b93803642bfe7a4ec58a703e, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Adware
+    - Ransomeware
+    - Spamware
+    - Defacement
+    correctAns: Defacement
+  - questionInfo: What type os security Breach is this?
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 8c38b780416565e4b8771f584c2378b8, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Spamware
+    - Adware
+    - Defacement
+    - Ransomeware
+    correctAns: Adware

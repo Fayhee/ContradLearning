@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: DataAnalystics
+  m_EditorClassIdentifier: 
+  categoryName: Data Analystics
+  questions:
+  - questionInfo: Which day has the highest NO2 value
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - June 2nd
+    - June 4th
+    - June 3rd
+    - June 5th
+    correctAns: June 4th
+  - questionInfo: 'which of these is not a result of toxic concenteration of NO2
+      in the atmoshere '
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Acid Rain
+    - Coral Bleaching
+    - Photochemical Smog
+    - Algal bloom
+    correctAns: Coral Bleaching
+  - questionInfo: What is the acceptable annual average range for NO2 in India
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 22 - 28 ppbv
+    - 12 - 14 ppbv
+    - 19 - 25 ppbv
+    - 16 - 21 ppbv
+    correctAns: 16 - 21 ppbv
